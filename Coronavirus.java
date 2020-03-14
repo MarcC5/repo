@@ -45,6 +45,22 @@ public class Coronavirus {
         }
         return true;
     }
+	
+    public float getInfeccio() {
+        return infeccio;
+    }
+
+    public void setInfeccio(float infeccio) {
+        this.infeccio = infeccio;
+    }
+
+    public float getMortalitat() {
+        return mortalitat;
+    }
+
+    public void setMortalitat(float mortalitat) {
+        this.mortalitat = mortalitat;
+    }
     
     
 }
