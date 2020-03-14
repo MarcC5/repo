@@ -62,5 +62,13 @@ public class Coronavirus {
         this.mortalitat = mortalitat;
     }
     
-    
+    public static void main(String[] args) {
+        Coronavirus c1 = new Coronavirus();
+        Coronavirus c2 = new Coronavirus(100,0);
+        Coronavirus c3 = new Coronavirus(c2);
+        
+        System.out.println(c1.toString());
+        System.out.println(c2.toString());
+        System.out.println(c3.toString());        
+    }
 }
